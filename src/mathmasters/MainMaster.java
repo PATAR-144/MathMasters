@@ -30,6 +30,7 @@ public class MainMaster {
                     player.answerCorrect();
                 } else {
                     player.answerIncorrect();
+                    scanner.nextLine();
                 }
             } else if(rng.getRandomOneToThree() == 2){
                 question.poseSubQuestion();
@@ -37,6 +38,7 @@ public class MainMaster {
                     player.answerCorrect();
                 } else {
                     player.answerIncorrect();
+                    scanner.nextLine();
                 }
             } else {
                 question.poseMultiQuestion();
@@ -44,6 +46,7 @@ public class MainMaster {
                     player.answerCorrect();
                 } else {
                     player.answerIncorrect();
+                    scanner.nextLine();
                 }
             }
             //After each question is attempted, the attempt counter increases.
