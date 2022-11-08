@@ -8,7 +8,7 @@ public class MainMaster {
         Quiz quiz = new Quiz();
         NumberGen rng = new NumberGen();
         Player player = new Player();
-        Question question = new Question(0, 0);
+        Question question = new Question();
         Scanner scanner = new Scanner(System.in);
 
         //Welcome player and get player's name.
